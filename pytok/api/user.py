@@ -7,9 +7,6 @@ from urllib.parse import urlencode, urlparse
 
 import playwright.async_api
 import requests
-from TikTokApi import TikTokApi
-from TikTokApi.tiktok import TikTokPlaywrightSession
-import TikTokApi.exceptions as tiktokapi_exceptions
 
 from ..exceptions import *
 from ..helpers import extract_tag_contents, edit_url
